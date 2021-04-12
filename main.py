@@ -5,8 +5,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 import random
 
-username = "tanish_malekar"
-password = "Tanman#123"
+username = "username" #enter instagram username here
+password = "password" #enter instagram password here
 
 driver = webdriver.Chrome(executable_path=r'C:\Users\HP\Desktop\chromedriver.exe')
 driver.get("https://www.instagram.com/")
